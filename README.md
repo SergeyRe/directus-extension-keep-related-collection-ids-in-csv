@@ -6,8 +6,11 @@ Select related collection
 
 Adjust display for records 
 
-Enable multiple value to be possible
+Enable multiple value to be possible (in case of M2M relations)
 
 ![image info](./options.png)
+
+Now there is possibility to configure condidions for others field dependent on this field value/values
+
 ![image info](./conditions.png)
 
