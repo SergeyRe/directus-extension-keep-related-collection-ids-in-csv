@@ -18,6 +18,10 @@
 		"source": "src/index.js",
 		"host": "^11.1.0"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/SergeyRe/directus-extension-keep-related-collection-ids-in-csv"
+	  },
 	"scripts": {
 		"build": "directus-extension build",
 		"dev": "directus-extension build -w --no-minify",
