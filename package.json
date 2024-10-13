@@ -1,0 +1,30 @@
+{
+	"name": "directus-extension-keep-related-collection-ids-in-csv",
+	"description": "M2O and M2М realization in one exyension, to make conditions under that fields ",
+	"icon": "extension",
+	"version": "0.0.1",
+	"keywords": [
+		"directus",
+		"directus-extension",
+		"directus-extension-interface"
+	],
+	"type": "module",
+	"files": [
+		"dist"
+	],
+	"directus:extension": {
+		"type": "interface",
+		"path": "dist/index.js",
+		"source": "src/index.js",
+		"host": "^11.1.0"
+	},
+	"scripts": {
+		"build": "directus-extension build",
+		"dev": "directus-extension build -w --no-minify",
+		"link": "directus-extension link"
+	},
+	"devDependencies": {
+		"@directus/extensions-sdk": "12.1.0",
+		"vue": "^3.5.11"
+	}
+}
