@@ -4,13 +4,13 @@ First create CSV field and then make choice "Collection ids to csv" for interfac
 
 Select related collection
 
-Adjust display for records 
+Adjust display template for records 
 
-Enable multiple value to be possible (in case of M2M relations)
+Enable multiple value to be possible (in case of M2M relations) or keep to be single value
 
 ![image info](./options.png)
 
-Now there is possibility to configure condidions for others field dependent on this field value/values
+Now : there is possibility to configure conditions for others field dependent on this field value/values
 
 ![image info](./conditions.png)
 
