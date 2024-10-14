@@ -27,6 +27,7 @@ export default {
 			name: '$t:display_template',
 			type: 'string',
 			meta: {
+				required: true,
 				interface: 'system-display-template',
 				width: 'full',
 				options: {
