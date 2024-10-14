@@ -2,7 +2,7 @@
 	"name": "directus-extension-keep-related-collection-ids-in-csv",
 	"description": "M2O and M2М realization in one extension, to make conditions under that fields ",
 	"icon": "extension",
-	"version": "0.0.14",
+	"version": "0.0.15",
 	"keywords": [
 		"directus",
 		"directus-extension",
