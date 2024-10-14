@@ -1,0 +1,27 @@
+{
+  fields_by_name(field: "csv", collection: "item") {
+    meta {
+      interface
+      options
+    }
+  }
+}
+
+POST /graphql/system 
+
+
+
+{
+  "data": {
+    "fields_by_name": {
+      "meta": {
+        "interface": "collection-ids-csv",
+        "options": {
+          "selectedCollection": "uuidvalue",
+          "template": "{{name}}",
+          "multi": true
+        }
+      }
+    }
+  }
+}
