@@ -71,7 +71,7 @@ watch(internalActive, getDisplayItem, { immediate: true });
 const headers = [{ text: "Name", value: "name",width:500 ,description:'by field interface template'}]
 
 const clickRow = (val) => {
-
+	console.log(val.item)
 
 	if (internalSelection.value.includes(val.item.id)) { internalSelection.value = internalSelection.value.filter(el => el != val.item.id) }
 	else { internalSelection.value = props.multiple ? [...internalSelection.value, val.item.id] : [val.item.id] }

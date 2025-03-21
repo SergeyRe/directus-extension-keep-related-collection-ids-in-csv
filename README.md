@@ -1,3 +1,5 @@
+deprecated:  now is part of facet-bundle   
+
 # Directus extension to make conditions under M2M fields values
 
 First create CSV field and then make choice "Collection ids to csv" for interface
